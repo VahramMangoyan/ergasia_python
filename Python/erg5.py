@@ -8,6 +8,6 @@ for line in f:
     for word in line.split():
         
         if len(word) > x:
-            print(word[1:]+"ay")
+            print(word[1:]+word[0]+"ay")
             
             
